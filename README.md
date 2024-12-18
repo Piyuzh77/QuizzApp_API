@@ -42,7 +42,7 @@ It uses **Spring Security** for authentication, **H2** as the database, and foll
      ```
 3. **Access the H2 Console** (optional):
    - **URL**: `http://localhost:8080/h2-console`
-   - **JDBC URL**: `jdbc:h2:mem:testdb`
+   - **JDBC URL**: `jdbc:h2:file:./data/quizdb`
    - **Username**: `sa`
    - **Password**: (leave empty)
    
