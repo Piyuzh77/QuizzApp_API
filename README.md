@@ -53,7 +53,7 @@ Since **Spring Security** is enabled, you'll need to log in to access certain en
 
    
    to **register a new user**:
-   - **POST** to `/u/register` with a JSON body:
+   - **POST** to `/users/register` with a JSON body:
      ```json
      {
        "username": "newuser",
