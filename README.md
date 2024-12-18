@@ -120,7 +120,7 @@ You can use **Postman** or any other API testing tool to interact with the endpo
 
 ### **EXAMPLE FOR EVERY ```POST``` CALL:
 
-
+```
 1. Register User
 Endpoint: /users/register
 HTTP Method: POST
@@ -209,7 +209,8 @@ Response:
   "totalQuestions": 2,
   "correctAnswers": 2,
   "score": 100
-}
+} 
+```
 
 
 ---
