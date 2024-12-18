@@ -291,4 +291,4 @@ To ensure the server is running properly, **GET** `/quizzes/health-check` to get
 
 ## **Contact 📧**
 For any questions or feedback, feel free to contact the developer:
-- **Piyush** 🎯
+- **Piyush** at @piyushg0707.03@gmail.com 🎯
