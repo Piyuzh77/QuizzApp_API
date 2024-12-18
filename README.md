@@ -117,6 +117,101 @@ You can use **Postman** or any other API testing tool to interact with the endpo
 | **GET**         | **/u/register**             | **View all registered users.**           |
 | **GET**         | **/quizzes/health-check**   | **Check if the server is running.**      |
 
+
+### **EXAMPLE FOR EVERY ```POST``` CALL:
+
+
+1. Register User
+Endpoint: /users/register
+HTTP Method: POST
+Request Body:
+{
+  "username": "user1",
+  "password": "password123"
+}
+Response:
+{
+  "id": 1,
+  "username": "user1"
+}
+
+2. Add Problems
+Endpoint: /problems/add
+HTTP Method: POST
+Request Body:
+[
+  {
+    "id": 1,
+    "question": "What is 2 + 2?",
+    "correctAnswer": "4"
+  },
+  {
+    "id": 2,
+    "question": "What is 3 + 5?",
+    "correctAnswer": "8"
+  }
+]
+Response:
+[
+  {
+    "id": 1,
+    "question": "What is 2 + 2?",
+    "correctAnswer": "4"
+  },
+  {
+    "id": 2,
+    "question": "What is 3 + 5?",
+    "correctAnswer": "8"
+  }
+]
+
+3. Submit Answers
+Endpoint: /quizzes/submit
+HTTP Method: POST
+Request Body:
+{
+  "answers": [
+    {
+      "problemId": 1,
+      "selectedAnswer": "4"
+    },
+    {
+      "problemId": 2,
+      "selectedAnswer": "8"
+    }
+  ]
+}
+Response:
+{
+  "totalQuestions": 2,
+  "correctAnswers": 2,
+  "score": 100
+}
+
+4. Submit Answers (Submissions Endpoint)
+Endpoint: /submissions
+HTTP Method: POST
+Request Body:
+{
+  "answers": [
+    {
+      "problemId": 1,
+      "selectedAnswer": "4"
+    },
+    {
+      "problemId": 2,
+      "selectedAnswer": "8"
+    }
+  ]
+}
+Response:
+{
+  "totalQuestions": 2,
+  "correctAnswers": 2,
+  "score": 100
+}
+
+
 ---
 
 ### **Health Check 🩺**
