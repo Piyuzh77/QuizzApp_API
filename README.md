@@ -56,7 +56,7 @@ Since **Spring Security** is enabled, you'll need to log in to access certain en
    - **POST** to `/users/register` with a JSON body:
      ```json
      {
-       "username": "newuser",
+       "email": "newuser@example.com",
        "password": "newpassword"
      }
      ```
