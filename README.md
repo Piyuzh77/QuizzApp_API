@@ -126,7 +126,7 @@ You can use **Postman** or any other API testing tool to interact with the endpo
    - **HTTP Method**: POST
    - **Request Body**:
      {
-       "username": "user1",
+       "email": "user@example.com",
        "password": "password123"
      }
    - **Response**:
