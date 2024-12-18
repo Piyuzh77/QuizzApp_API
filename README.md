@@ -118,10 +118,10 @@ You can use **Postman** or any other API testing tool to interact with the endpo
 | **GET**         | **/quizzes/health-check**   | **Check if the server is running.**      |
 
 
-### **EXAMPLE FOR EVERY ```POST``` CALL:
+### **EXAMPLE FOR EVERY ```POST``` CALL**:
 
 ```
-1. Register User
+1. **Register User**
 Endpoint: /users/register
 HTTP Method: POST
 Request Body:
