@@ -113,8 +113,8 @@ You can use **Postman** or any other API testing tool to interact with the endpo
 | **GET**         | **/problems**               | **Retrieve all problems.**               |
 | **GET**         | **/quizzes/problem**        | **Get an unanswered problem.**           |
 | **POST**        | **/quizzes/submit**         | **Submit an answer to a problem.**       |
-| **POST**        | **/u/register**             | **Register a new user.**                 |
-| **GET**         | **/u/register**             | **View all registered users.**           |
+| **POST**        | **/users/register**             | **Register a new user.**                 |
+| **GET**         | **/users/register**             | **View all registered users.**           |
 | **GET**         | **/quizzes/health-check**   | **Check if the server is running.**      |
 
 
