@@ -89,18 +89,17 @@ You can use **Postman** or any other API testing tool to interact with the endpo
 - **Request Body** (Example):
   ```json
   {
-    "quizId": 1,
-    "answers": [
-      {
-        "problemId": 101,
-        "selectedAnswer": "Paris"
-      },
-      {
-        "problemId": 102,
-        "selectedAnswer": "12"
-      }
-    ]
-  }
+  "answers": [
+    {
+      "problemId": 1,
+      "selectedAnswer": "4"
+    },
+    {
+      "problemId": 2,
+      "selectedAnswer": "8"
+    }
+  ]
+   }
   ```
 
 ---
